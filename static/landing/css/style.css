@@ -10,36 +10,83 @@ html, body {
     min-height: 100;
     width: 100%;
     background-size: cover;
+    position:  relative;
+    padding: 300px 20px;
 }
 
-
-
-.title {
-    display: flex;
-    position: relative;
-    top: 45%;
-    transform: perspective(1px) translateY(-50%);
-    padding-left: 3%;
-
+.landing-hello {
+    width:  100%;
+    display:  block;
+    overflow:  hidden;
     color: #FFFFFF;
-    font-family: 'Exo', sans-serif;
-    font-weight: revert;
-    font-size: 600%;
-
-
-}
-
-.subtitle {
-    display: block;
-    position: relative;
-    top: 34%;
-    transform: perspective(1px) translateY(-50%);
-    padding-left: 3.5%;
-
-    color: #FFFFFF;
+    font-size: 50px;
     font-family: 'Exo', sans-serif;
     font-weight: lighter;
-    font-size: 187%;
+    padding-left: 3px;
+}
 
+.landing-title {
+    top: -48px;
+    position: relative;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    color: #FFFFFF;
+    font-size: 100px;
+    font-family: 'Exo', sans-serif;
+}
 
+.landing-sub {
+    top: -100px;
+    left: +5px;
+    position:  relative;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-family: 'Exo', sans-serif;
+    font-weight: lighter;
+}
+
+.darker-left {
+    overflow: hidden;
+    background: #121212;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    color: #f8f8f8;
+}
+
+.darker-left-title{
+    text-align: right;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+}
+
+.darker-left-sub{
+    text-align: right;
+    font-family: 'Exo', sans-serif;
+    font-weight: lighter;
+}
+
+.lighter-right {
+    overflow: hidden;
+    background: #181818;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    color: #f4f4f4;
+}
+
+.lighter-right-title {
+    text-align: left;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+}
+
+.lighter-right-sub {
+    text-align: left;
+    font-family: 'Exo', sans-serif;
+    font-weight: lighter;
 }
