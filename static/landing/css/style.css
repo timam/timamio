@@ -11,7 +11,7 @@ html, body {
     width: 100%;
     background-size: cover;
     position:  relative;
-    padding: 300px 20px;
+    padding: 22% 3%;
 }
 
 .landing-hello {
@@ -26,7 +26,7 @@ html, body {
 }
 
 .landing-title {
-    top: -48px;
+    top: -8.5%;
     position: relative;
     width: 100%;
     display: block;
@@ -37,7 +37,7 @@ html, body {
 }
 
 .landing-sub {
-    top: -100px;
+    top: -16.5%;
     left: +5px;
     position:  relative;
     width: 100%;
@@ -89,4 +89,34 @@ html, body {
     text-align: left;
     font-family: 'Exo', sans-serif;
     font-weight: lighter;
+}
+
+.lighter-left {
+    overflow: hidden;
+    background: #181818;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    color: #f4f4f4;
+}
+
+.lighter-left-title{
+    text-align: right;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+}
+
+.lighter-left-sub{
+    text-align: right;
+    font-family: 'Exo', sans-serif;
+    font-weight: lighter;
+}
+
+.darker-right {
+    overflow: hidden;
+    background: #121212;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    color: #f8f8f8;
 }
