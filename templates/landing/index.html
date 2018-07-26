@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
-    {% load static %}
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,6 +10,7 @@
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- Custom CSS -->
+    {% load static %}
     <link rel="stylesheet" href="../../static/landing/css/style.css">
 
     <!-- Fonts -->
@@ -22,24 +22,22 @@
 
 
 <div class="landing">
-    <div class="landing-hello">
-        <p class="landing-text">Hello!</p>
+    <div class="landing landing-welcome">
+        <h3 class="landing-hello">Hello!</h3>
+        <h1 class="landing-name">I'm <strong>Timam</strong></h1>
+        <h6 class="landing-occupation">Site Reliability Engineer</h6>
     </div>
-    <div class="landing-title">
-        <p class="landing-text">I'm <strong>Timam</strong></p>
-    </div>
-    <div class="landing-sub">
-        <p class="landing-text"> Site Reliability Engineer</p>
-    </div>
+
+
 </div>
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col col-lg-4 darker-left ">
+        <div class="col-lg-4 col-12 darker-left">
             <p class="darker-left-title"> INTRO</p>
             <p class="darker-left-sub"> What I am all about. </p>
         </div>
-        <div class="col col-lg-8 lighter-right">
+        <div class="col-lg-8 col-12 lighter-right ">
             <p class="lighter-right-sub">
                 Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero,
                 faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis.
@@ -50,17 +48,23 @@
     </div>
 
     <div class="row">
-        <div class="col col-lg-4 lighter-left ">
+        <div class="col-lg-4 lighter-left ">
             <p class="lighter-left-title"> EXPERTISE </p>
             <p class="lighter-left-sub"> Batman would be jealous. </p>
         </div>
-        <div class="col col-lg-8 darker-right">
+        <div class="col-lg-8 col-sm-12 darker-right">
             <div class="row">
-                <div class="col col-lg-6">
+                <div class="col-lg-6 col-sm-6">
                     1
                 </div>
-                <div class="col col-lg-6">
+                <div class="col-lg-6 col-sm-6">
                     2
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    3
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    4
                 </div>
             </div>
         </div>

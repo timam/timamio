@@ -3,6 +3,11 @@ html, body {
     width: 100%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Exo', sans-serif;
+    color: #FFFFFF;
+}
+
 .landing {
     background: #111111;
     display: block;
@@ -11,46 +16,29 @@ html, body {
     width: 100%;
     background-size: cover;
     position:  relative;
-    padding: 22% 3%;
+}
+
+.landing-welcome{
+    top: 32%;
+    padding: 3%;
 }
 
 .landing-hello {
-    width:  100%;
-    display:  block;
-    overflow:  hidden;
-    color: #FFFFFF;
     font-size: 50px;
-    font-family: 'Exo', sans-serif;
-    font-weight: lighter;
-    padding-left: 3px;
 }
 
-.landing-title {
-    top: -8.5%;
-    position: relative;
-    width: 100%;
-    display: block;
-    overflow: hidden;
-    color: #FFFFFF;
+.landing-name {
     font-size: 100px;
-    font-family: 'Exo', sans-serif;
 }
 
-.landing-sub {
-    top: -16.5%;
-    left: +5px;
-    position:  relative;
-    width: 100%;
-    display: block;
-    overflow: hidden;
-    color: #FFFFFF;
-    font-size: 32px;
-    font-family: 'Exo', sans-serif;
+.landing-occupation {
+    font-size: 40px;
     font-weight: lighter;
 }
 
 .darker-left {
     overflow: hidden;
+    display:block;
     background: #121212;
     padding: 5% 5% 5% 5%;
     color: #f8f8f8;
@@ -69,10 +57,12 @@ html, body {
 }
 
 .lighter-right {
+    display:block;
     overflow: hidden;
     background: #181818;
     padding : 5% 5% 5% 5%;
     color: #f4f4f4;
+    clear: left;
 }
 
 .lighter-right-title {
@@ -90,9 +80,9 @@ html, body {
 .lighter-left {
     overflow: hidden;
     background: #181818;
-    padding-top: 100px;
-    padding-right: 100px;
-    padding-bottom: 100px;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
     color: #f4f4f4;
 }
 
@@ -111,8 +101,29 @@ html, body {
 .darker-right {
     overflow: hidden;
     background: #121212;
-    padding-top: 100px;
-    padding-left: 100px;
-    padding-bottom: 100px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
     color: #f8f8f8;
+}
+
+@media only screen and (max-width: 550px) {
+    .landing-welcome{
+        top: 32%;
+        padding: 3%;
+    }
+
+    .landing-hello {
+        font-size: 35px;
+    }
+
+    .landing-name {
+        font-size: 60px;
+    }
+
+    .landing-occupation {
+        font-size: 25px;
+        font-weight: lighter;
+    }
+
 }
